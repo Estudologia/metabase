@@ -18,7 +18,7 @@ services:
     container_name: metabase
     restart: always
     environment:
-      MB_REDIRECT_ALL_REQUESTS_TO_HTTPS: false
+      MB_REDIRECT_ALL_REQUESTS_TO_HTTPS: 'false'
       MB_DB_TYPE: postgres
       MB_DB_DBNAME: metabase
       MB_DB_PORT: 5432
